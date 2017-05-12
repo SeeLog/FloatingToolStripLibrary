@@ -3,6 +3,10 @@ FloatingToolStripLibrary for .NET Framework 3.5
 
 TEST目的で524514833454841年位前に書いた古典を上げてみました．
 
+![スクリーンショット1](http://imgur.com/SHRSx0O.png)
+![スクリーンショット2](http://imgur.com/cBOteQj.png)
+![スクリーンショット3](http://imgur.com/a0kSJBX.png)
+![スクリーンショット4](http://imgur.com/pW40YKa.png)
 
 # 使い方
 1. using FloatingToolStripLibrary; を追加
