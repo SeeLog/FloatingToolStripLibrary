@@ -8,7 +8,7 @@ using System.Windows.Forms;
 
 namespace FloatingToolStripLibrary
 {
-    public partial class RectForm : Form
+    internal partial class RectForm : Form
     {
         public RectForm(Color RangeColor, Color EdgeColor)
         {

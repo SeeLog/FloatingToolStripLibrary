@@ -9,7 +9,7 @@ using System.Runtime.InteropServices;
 
 namespace FloatingToolStripLibrary
 {
-    public partial class FloatingWindow : Form
+    internal partial class FloatingWindow : Form
     {
         public FloatingWindow(ToolStrip SourceToolStrip, ToolStripPanel[] ParentPanels, Form ParentForm, string Text, FloatingToolStrip ParentClass)
         {
@@ -58,7 +58,7 @@ namespace FloatingToolStripLibrary
                 this.Show();
                 _parentclass.showingform = true;
             }
-
+            
             rectform = new RectForm(_parentclass.RangeColor, _parentclass.EdgeColor);
 
             //_toolstrip.DockChanged += new EventHandler(_toolstrip_DockChanged);
