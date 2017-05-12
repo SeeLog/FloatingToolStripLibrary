@@ -13,7 +13,7 @@ namespace FloatingToolStripLibrary
     {
         public FloatingWindow(ToolStrip SourceToolStrip, ToolStripPanel[] ParentPanels, Form ParentForm, string Text, FloatingToolStrip ParentClass)
         {
-            InitializeComponent();
+            InitializeComponent(); 
             this.SetStyle(ControlStyles.AllPaintingInWmPaint | ControlStyles.OptimizedDoubleBuffer | ControlStyles.ResizeRedraw, true);
             //this.TopMost = true;
             this.StartPosition = FormStartPosition.Manual;
