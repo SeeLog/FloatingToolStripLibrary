@@ -19,10 +19,10 @@ namespace FloatingToolStripLibrary
                 ControlStyles.ResizeRedraw |
                 ControlStyles.AllPaintingInWmPaint, true);
             this.BackColor = RangeColor;
-            this.rectcolor = EdgeColor;
+            this.EdgeColor = EdgeColor;
         }
 
-        public Color rectcolor
+        public Color EdgeColor
         {
             get
             {

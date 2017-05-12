@@ -54,7 +54,7 @@ namespace FloatingToolStripLibrary
                 {
                     _showing = true;
                     FloatingWindow form = new FloatingWindow(_toolstrip, _parentpanels, _parentform, text, this);
-                    form.rectform.rectcolor = EdgeColor;
+                    form.rectform.EdgeColor = EdgeColor;
                     form.rectform.BackColor = RangeColor;
                     _parentform.AddOwnedForm(form);
                     //form.Show();
@@ -144,7 +144,7 @@ namespace FloatingToolStripLibrary
                 {
                     if (form.rectform != null)
                     {
-                        form.rectform.rectcolor = value;
+                        form.rectform.EdgeColor = value;
                     }
                 }
             }
@@ -154,7 +154,7 @@ namespace FloatingToolStripLibrary
                 {
                     if (form.rectform != null)
                     {
-                        _rectcolor = form.rectform.rectcolor;
+                        _rectcolor = form.rectform.EdgeColor;
                     }
                 }
                 return _rectcolor;
@@ -208,7 +208,7 @@ namespace FloatingToolStripLibrary
                 ToolStripLayoutStyle tsls = _toolstrip.LayoutStyle;
 
                 form = new FloatingWindow(_toolstrip, _parentpanels, _parentform, text, this);
-                form.rectform.rectcolor = EdgeColor;
+                form.rectform.EdgeColor = EdgeColor;
                 form.rectform.BackColor = RangeColor;
                 form.LastParent = tsp;
                 form.LastPoint = lp;
